@@ -5,9 +5,10 @@
 const char* ssid     = "YOUR WIFI SSID";
 const char* password = "YOUR WIFI PASS";
 
-// REPLACE with your Domain name and URL path or IP address with path
+// Replace with your Domain name and URL path or IP address with path
 const char* serverName = "../read_water_pump.php";
 
+// Define Pin For Triggering Water Pump
 #define WATER_PUMP 27
 boolean state = false;
 
